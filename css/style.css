@@ -3,12 +3,14 @@
 
 
     /*Barre de menu fixe en haut et le reste de la page déroulant: */
-    background-color: blue;
+
+
+    background-color: white;
       position: fixed; /* Set the navbar to fixed position */
       top: 0;
       left: 0;
       right: 0;
-      height: 120px;
+      height: 50px;
       z-index: 1;
     }
 
@@ -16,11 +18,21 @@
     .intro{
 
     margin-top: 100px;
+
     }
+
+
+    button{
+       
+        background: #e40034;
+        float: right;
+    }
+
 body{
-    background-color:#E9F9F9;
+    background-color:#f3f6f8;
     padding: 50px 50px 50px 50px;
     max-width: 800px;
+    margin: 20px 50px 100px 100px;
 }
 
 
@@ -44,9 +56,10 @@ background-color: white;
     margin-bottom: 50px;
    box-shadow: 1px 1px 1px 1px grey;
    padding: 20px 40px 20px 40px;
-   border-radius: 20px;
+   border-radius: 5px;
+   box-shadow: 10px 10px 5px #ebeeef;
 }
 
 ol{
-    list-style-image:image("bullet.png");
+    list-style-image: url("../images/liste.png");
 }
