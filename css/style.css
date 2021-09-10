@@ -60,5 +60,7 @@ background-color: white;
    box-shadow: 10px 10px 5px #ebeeef;
 }
 
-ol{list-style-image: url("/images/liste.png");
+
+ol{
+    list-style-image: url("../images/bullet.png");
 }
