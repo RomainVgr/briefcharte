@@ -1,14 +1,22 @@
 
 .header{
-    /*Barre de menu fixe en haut et le reste de la page déroulant: */
 
-      overflow: hidden;
-      background-color:#CAF5F5;
+
+    /*Barre de menu fixe en haut et le reste de la page déroulant: */
+    background-color: blue;
       position: fixed; /* Set the navbar to fixed position */
-      top: 0; /* Position the navbar at the top of the page */
-      width: 100%; /* Full width */
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 120px;
+      z-index: 1;
     }
-}
+
+
+    .intro{
+
+    margin-top: 100px;
+    }
 body{
     background-color:#E9F9F9;
     padding: 50px 50px 50px 50px;
