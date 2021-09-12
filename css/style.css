@@ -1,0 +1,49 @@
+body{
+    background-color:#f3f6f8;
+}
+
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: 1;
+}
+
+button{
+    background: #e40034;
+    color: white;
+}
+
+.bloc{
+    background-color: white;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 1px 1px grey;
+    padding: 20px 40px 20px 40px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #ebeeef;
+}
+
+.blocs{
+    margin: auto;
+}
+
+.row{
+    margin-top: 50px;
+}
+
+h5{
+    /*font-family: cursive;*/
+    text-shadow: black 40px;
+}
+
+ol{
+    list-style-image: url(../images/bullet.png);
+    display: none;
+}
+
+.active{
+    display: block;
+}
